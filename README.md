@@ -1,47 +1,52 @@
 To-Do Uygulaması (List Generic)
-Bu proje, C# Windows Forms kullanılarak geliştirilmiş basit bir To-Do (Yapılacaklar) listesi uygulamasıdır. Uygulama, yapılacak işleri kaydetmenizi, listelemenizi ve durumlarına göre filtrelemenizi sağlar.
+Bu proje, C# Windows Forms kullanılarak geliştirilmiş, basit bir masaüstü To-Do (Yapılacaklar) listesi uygulamasıdır. Proje, kullanıcıların yapılacak işleri kolayca kaydetmesini, görüntülemesini ve yönetmesini sağlar.
 
 Kullanılan Teknolojiler
-Dil: C#
+Geliştirme Dili: C#
 
 Platform: .NET Framework
 
 Arayüz: Windows Forms (WinForms)
 
-Veri Depolama: Uygulama içinde tanımlanan statik listeler (in-memory data)
+Veri Yönetimi: Uygulama içinde tanımlanmış statik listeler (in-memory data)
 
 Uygulama Özellikleri
-Kullanıcı Girişi: Uygulama, sabit tanımlanmış kullanıcı adı ve şifre ile giriş yapma ekranına sahiptir.
+Kullanıcı Kimlik Doğrulama: Sabit tanımlanmış kullanıcı adı ve şifre ile güvenli giriş ekranı.
 
-Görev Yönetimi: Yeni görevler (To-Do) ekleme, başlık, açıklama, önem derecesi ve durum gibi bilgileri kaydetme.
+Görev Ekleme: Kullanıcının, görev başlığı, kısa açıklama, detaylı açıklama, önem derecesi ve durumu gibi bilgileri girerek yeni görevler oluşturması.
 
-Görev Listeleme: Kaydedilen tüm görevleri listeleme imkanı.
+Geniş Görev Listesi: Kaydedilen tüm görevlerin detaylı bir liste görünümünde sunulması.
 
-Durum Filtreleme: Görevleri "Tamamlandı", "İptal Edildi" ve diğer durumlarına göre filtreleme.
+Akıllı Filtreleme: Görevlerin durumlarına (Tamamlandı, İptal Edildi, Devam Ediyor) göre hızlıca filtrelenmesi.
 
-Sanal Veritabanı: Veriler, kalıcı bir veritabanı yerine uygulamanın kendisinde tanımlanan statik listelerde (List<T>) saklanır.
+Proje Dizini
+Proje, okunabilirliği ve bakımı kolaylaştırmak amacıyla katmanlı bir mimariye sahiptir.
+
+Entities: Uygulamanın temel veri modellerini (todo.cs, kullanici.cs) içerir.
+
+BusinessService: Uygulamanın iş mantığını ve veri manipülasyonu işlemlerini yöneten servisleri (kullaniciServis.cs, todoServis.cs) barındırır.
+
+Database: Veri depolama için kullanılan sanal veritabanı sınıfı (sanalDatabase.cs) bu klasörde yer alır.
+
+Forms: Uygulamanın çeşitli arayüz pencerelerini (Form1.cs, sistemGiris.cs, yeniKayit.cs, kayitListe.cs) içerir.
+
+Nasıl Kurulur ve Çalıştırılır?
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+Projeyi bir Git istemcisi kullanarak klonlayın veya zip olarak indirin.
+
+Visual Studio'yu açın ve çözüm dosyasını (ListGenericToDoUygulama.sln) yükleyin.
+
+Çözümü derlemek için Visual Studio'da Build > Build Solution menüsünü kullanın.
+
+Uygulamayı başlatmak için Debug > Start Without Debugging veya F5 tuşuna basın.
+
+Önemli Not
+Bu uygulama, verileri kalıcı olarak bir veritabanına kaydetmez. Uygulama her kapatılıp açıldığında, girilen tüm veriler sıfırlanır. Bu proje, C# ve Windows Forms'un temel veri yönetimi ve arayüz programlama yeteneklerini sergilemek amacıyla geliştirilmiştir.
 
 Kullanıcı Bilgileri
-Uygulamaya giriş yapmak için aşağıdaki sabit kullanıcı bilgileri kullanılabilir:
+Uygulamaya giriş yapmak için kullanılan sabit bilgiler aşağıdadır:
 
 Kullanıcı Adı: test1
 
 Şifre: 1
-
-Proje Yapısı
-Entities: Veri modelleri (todo.cs, kullanici.cs) bu klasörde yer alır.
-
-BusinessService: İş mantığı servisleri (kullaniciServis.cs, todoServis.cs) bu klasörde bulunur.
-
-Database: Sanal veritabanı (sanalDatabase.cs) bu klasörde tanımlanmıştır.
-
-Kurulum ve Çalıştırma
-Bu projeyi Visual Studio'da açın.
-
-Çözümü derleyin (Build Solution).
-
-Uygulamayı çalıştırın (Start).
-
-Giriş ekranında yukarıdaki kullanıcı bilgilerini kullanarak sisteme giriş yapın.
-
-Not: Bu uygulama, verileri kalıcı olarak saklamaz. Uygulama her yeniden başlatıldığında, kaydedilen tüm görevler silinir.
