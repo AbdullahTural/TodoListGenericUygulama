@@ -2,6 +2,7 @@ To-Do Uygulaması (List Generic)
 Bu proje, C# Windows Forms kullanılarak geliştirilmiş, basit bir masaüstü To-Do (Yapılacaklar) listesi uygulamasıdır. Proje, kullanıcıların yapılacak işleri kolayca kaydetmesini, görüntülemesini ve yönetmesini sağlar.
 
 Kullanılan Teknolojiler
+
 Geliştirme Dili: C#
 
 Platform: .NET Framework
@@ -39,7 +40,7 @@ Visual Studio'yu açın ve çözüm dosyasını (ListGenericToDoUygulama.sln) y�
 
 Çözümü derlemek için Visual Studio'da Build > Build Solution menüsünü kullanın.
 
-Uygulamayı başlatmak için Debug > Start Without Debugging veya F5 tuşuna basın.
+Uygulamayı başlatmak için F5 tuşuna basın
 
 Önemli Not
 Bu uygulama, verileri kalıcı olarak bir veritabanına kaydetmez. Uygulama her kapatılıp açıldığında, girilen tüm veriler sıfırlanır. Bu proje, C# ve Windows Forms'un temel veri yönetimi ve arayüz programlama yeteneklerini sergilemek amacıyla geliştirilmiştir.
