@@ -1,0 +1,13 @@
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\bin\Debug\ListGenericToDoUygulama.exe.config
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\bin\Debug\ListGenericToDoUygulama.exe
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\bin\Debug\ListGenericToDoUygulama.pdb
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.csproj.AssemblyReference.cache
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.Form1.resources
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.Properties.Resources.resources
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.csproj.GenerateResource.cache
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.csproj.CoreCompileInputs.cache
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.exe
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.pdb
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.sistemGiris.resources
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.yeniKayit.resources
+C:\Users\karne\source\repos\ListGenericToDoListUygulama\ListGenericToDoUygulama\ListGenericToDoUygulama\obj\Debug\ListGenericToDoUygulama.kayitListe.resources
